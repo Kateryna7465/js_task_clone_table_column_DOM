@@ -2,7 +2,7 @@
 
 const rows = document.querySelectorAll('table tr');
 
-rows.forEach(row => {
+rows.forEach((row) => {
   const cells = row.querySelectorAll('th, td');
 
   if (cells.length >= 2) {
